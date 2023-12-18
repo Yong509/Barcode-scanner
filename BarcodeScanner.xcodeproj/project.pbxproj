@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EEE2B4362B304CE100D713A1 /* BarcodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2B4352B304CE100D713A1 /* BarcodeScannerApp.swift */; };
-		EEE2B4382B304CE100D713A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2B4372B304CE100D713A1 /* ContentView.swift */; };
+		EEE2B4382B304CE100D713A1 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2B4372B304CE100D713A1 /* BarcodeScannerView.swift */; };
 		EEE2B43A2B304CE500D713A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE2B4392B304CE500D713A1 /* Assets.xcassets */; };
 		EEE2B43D2B304CE500D713A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE2B43C2B304CE500D713A1 /* Preview Assets.xcassets */; };
 		EEE2B4472B304CE500D713A1 /* BarcodeScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2B4462B304CE500D713A1 /* BarcodeScannerTests.swift */; };
 		EEE2B4512B304CE500D713A1 /* BarcodeScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2B4502B304CE500D713A1 /* BarcodeScannerUITests.swift */; };
 		EEE2B4532B304CE500D713A1 /* BarcodeScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2B4522B304CE500D713A1 /* BarcodeScannerUITestsLaunchTests.swift */; };
+		EEE2B4602B3098C400D713A1 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2B45F2B3098C400D713A1 /* ScannerVC.swift */; };
+		EEE2B4622B309F3D00D713A1 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2B4612B309F3D00D713A1 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		EEE2B4322B304CE100D713A1 /* BarcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE2B4352B304CE100D713A1 /* BarcodeScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerApp.swift; sourceTree = "<group>"; };
-		EEE2B4372B304CE100D713A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEE2B4372B304CE100D713A1 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		EEE2B4392B304CE500D713A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE2B43C2B304CE500D713A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEE2B4422B304CE500D713A1 /* BarcodeScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		EEE2B44C2B304CE500D713A1 /* BarcodeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE2B4502B304CE500D713A1 /* BarcodeScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerUITests.swift; sourceTree = "<group>"; };
 		EEE2B4522B304CE500D713A1 /* BarcodeScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEE2B45F2B3098C400D713A1 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		EEE2B4612B309F3D00D713A1 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				EEE2B4352B304CE100D713A1 /* BarcodeScannerApp.swift */,
-				EEE2B4372B304CE100D713A1 /* ContentView.swift */,
+				EEE2B4372B304CE100D713A1 /* BarcodeScannerView.swift */,
 				EEE2B4392B304CE500D713A1 /* Assets.xcassets */,
 				EEE2B43B2B304CE500D713A1 /* Preview Content */,
+				EEE2B45F2B3098C400D713A1 /* ScannerVC.swift */,
+				EEE2B4612B309F3D00D713A1 /* ScannerView.swift */,
 			);
 			path = BarcodeScanner;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEE2B4382B304CE100D713A1 /* ContentView.swift in Sources */,
+				EEE2B4602B3098C400D713A1 /* ScannerVC.swift in Sources */,
+				EEE2B4622B309F3D00D713A1 /* ScannerView.swift in Sources */,
+				EEE2B4382B304CE100D713A1 /* BarcodeScannerView.swift in Sources */,
 				EEE2B4362B304CE100D713A1 /* BarcodeScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan barcode";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -404,6 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan barcode";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
